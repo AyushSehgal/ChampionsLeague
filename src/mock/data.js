@@ -16,6 +16,15 @@ export const heroData = {
   cta: "Scroll or Click for Info",
 };
 
+// Announcements DATA
+export const announcementData = {
+  img: "logistics.png",
+  paragraphOne: "",
+  paragraphTwo: "",
+  paragraphThree: "",
+  resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
+};
+
 // ABOUT DATA
 export const aboutData = {
   img: "logistics.png",

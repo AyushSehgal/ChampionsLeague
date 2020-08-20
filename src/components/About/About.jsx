@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Title from "../Title/Title";
 import AboutImg from "../Image/AboutImg";
 import PortfolioContext from "../../context/context";
+import Iframe from "react-iframe";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -30,6 +31,19 @@ const About = () => {
           <div className="about-wrapper__image">
             <AboutImg alt="schedule" filename={img} />
           </div>
+        </Fade>
+        <Title title="Announcements" />
+        <Fade
+          left={isDesktop}
+          bottom={isMobile}
+          duration={1000}
+          delay={1000}
+          distance="30px"
+        >
+          <Iframe
+            url="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+            position="relative"
+          />
         </Fade>
       </Container>
     </section>

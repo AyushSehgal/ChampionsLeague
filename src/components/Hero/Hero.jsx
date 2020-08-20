@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import PortfolioContext from "../../context/context";
+import Iframe from "react-iframe";
+import Title from "../Title/Title";
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -10,6 +12,9 @@ const Header = () => {
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [link, setLink] = useState(
+    "https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+  );
 
   useEffect(() => {
     if (window.innerWidth > 769) {
@@ -19,6 +24,9 @@ const Header = () => {
       setIsMobile(true);
       setIsDesktop(false);
     }
+    setLink(
+      "https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+    );
   }, []);
 
   return (
@@ -63,6 +71,17 @@ const Header = () => {
             </span>
           </p>
         </Fade>
+        {/* <GoogleDocsViewer
+          width="600px"
+          height="780px"
+          fileUrl="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+        /> */}
+        {/* <iframe
+          src="https://web.archive.org/web/20141219073731/http://docs.google.com/viewer?url=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fd%2F1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E%2Fedit%3Fusp%3Dsharing&embedded=true"
+          width="600"
+          height="780"
+          style="border: none;"
+        ></iframe> */}
       </Container>
     </section>
   );
