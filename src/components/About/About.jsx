@@ -40,10 +40,14 @@ const About = () => {
           delay={1000}
           distance="30px"
         >
-          <Iframe
-            url="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
-            position="relative"
-          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Iframe
+              url="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+              position="relative"
+              width="100%"
+              height="100%"
+            />
+          </div>
         </Fade>
       </Container>
     </section>
