@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ChampionsLeague",
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -28,7 +29,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
-        icon: 'src/images/favicon.png',
+        icon: "src/images/favicon.png",
       },
     },
   ],

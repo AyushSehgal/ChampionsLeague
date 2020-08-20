@@ -42,7 +42,7 @@ const About = () => {
         >
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Iframe
-              url="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharing"
+              url="https://docs.google.com/document/d/1uhf52fVU1Y3ofqxcO2QL1pBAEsexWsMayeaXqZ5HR8E/edit?usp=sharingrm=minimal"
               position="relative"
               width="100%"
               height="100%"
