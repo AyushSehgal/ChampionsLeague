@@ -27,7 +27,7 @@ export const announcementData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: "logistics.png",
+  img: "logistics.jpg",
   paragraphOne: "",
   paragraphTwo: "",
   paragraphThree: "",
@@ -83,8 +83,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "sch6.png",
+    img: "tjc.png",
     title: "",
+    info: "",
+    info2: "",
+    url: "",
+    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "sch6.png",
+    title: "Football",
     info: "",
     info2: "",
     url: "",

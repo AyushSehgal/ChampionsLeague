@@ -33,6 +33,11 @@ const Projects = () => {
             return (
               <Row key={id}>
                 <Col lg={8} sm={12}>
+                  <div className="project-wrapper__text">
+                    <h3 className="project-wrapper__text-title">
+                      {title || ""}
+                    </h3>
+                  </div>
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
