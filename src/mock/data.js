@@ -16,18 +16,9 @@ export const heroData = {
   cta: "Scroll or Click for Info",
 };
 
-// Announcements DATA
-export const announcementData = {
-  img: "logistics.png",
-  paragraphOne: "",
-  paragraphTwo: "",
-  paragraphThree: "",
-  resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
-};
-
 // ABOUT DATA
 export const aboutData = {
-  img: "logistics.jpg",
+  img: "profile.jpg",
   paragraphOne: "",
   paragraphTwo: "",
   paragraphThree: "",
@@ -38,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: "sch1.png",
+    img: "project.jpg",
     title: "",
     info: "",
     info2: "",
@@ -47,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "sch2.png",
+    img: "project.jpg",
     title: "",
     info: "",
     info2: "",
@@ -56,52 +47,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "sch3.png",
-    title: "",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "sch4.png",
-    title: "",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "sch5.png",
-    title: "",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "tjc.png",
-    title: "",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "sch6.png",
-    title: "Football",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "sch7.png",
+    img: "project.jpg",
     title: "",
     info: "",
     info2: "",
