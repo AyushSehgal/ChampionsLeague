@@ -48,6 +48,7 @@ const Header = () => {
             {subtitle ||
               "Remember to stay hydrated, keep your masks with you, and have fun ;)"}
           </h1>
+          <h2>Use #ThaiSACL2020 when you post pics!</h2>
         </Fade>
 
         {/* <Fade bottom duration={1000} delay={600} distance="30px">
